@@ -1,0 +1,151 @@
+.boton:disabled{
+    transform: rotateX(360deg) scale(105%);
+    transition: 1s ease;
+}
+.boton.selected{
+    transform: scale(120%);
+}
+.general {
+    width: 540px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    padding-bottom: 50px;
+}
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 0% 0% 0%;
+    border-top-right-radius: 12%;
+    border-top-left-radius: 12%;
+    background-color: aqua;
+}
+.contenedorBingo{
+    display: inline-block;
+    width: 19%;
+    justify-content: space-between;
+    border-left: 7px solid aqua;
+    border-right: 13px solid aqua;
+    border-bottom: 12px solid aqua;
+    text-align: center;
+}
+.numero {
+    width: 93px;
+    border: 3px solid rgb(75, 75, 75);
+    text-align: center;
+    padding-top: 1%;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.letras {
+    flex: 1;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+}
+.ultimo {
+    height: 90px;
+    border-bottom: 15px solid aqua;
+}
+.boton {
+    border: 0ch;
+    background-color: #FFF;
+    cursor: pointer;
+}
+.botonMuestra {
+    width: 83%;
+    border: 0ch;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+div .numero:hover {
+    transform: scale(1.05);
+}
+#Equis-0-0{
+    background-color: gold;
+}
+#Equis-1-1{
+    background-color: gold;
+}
+#Equis-2-2{
+    background-color: gold;
+}
+#Equis-3-3{
+    background-color: gold;
+}
+#Equis-4-4{
+    background-color: gold;
+}
+#Equis-5-5{
+    background-color: gold;
+}
+#Equis-0-4{
+    background-color: gold;
+}
+#Equis-1-3{
+    background-color: gold;
+}
+#Equis-2-2{
+    background-color: gold;
+}
+#Equis-3-1{
+    background-color: gold;
+}
+#Equis-4-0{
+    background-color: gold;
+}
+
+#Triplex-4-0{
+    background-color: hotpink;
+}
+#Triplex-3-1{
+    background-color: hotpink;
+}
+#Triplex-2-2{
+    background-color: hotpink;
+    background-color: blue;
+}
+#Triplex-2-0{
+    background-color: hotpink;
+}
+#Triplex-4-2{
+    background-color: hotpink;
+}
+#Triplex-4-2{
+    background-color: hotpink;
+}
+
+#Triplex-1-4{
+    background-color: chartreuse;
+}
+#Triplex-2-3{
+    background-color: chartreuse;
+}
+#Triplex-3-2{
+    background-color: chartreuse;
+}
+#Triplex-1-2{
+    background-color: chartreuse;
+}
+#Triplex-3-4{
+    background-color: chartreuse;
+}
+
+#Triplex-0-4{
+    background-color: blue;
+}
+#Triplex-1-3{
+    background-color: blue;
+}
+#Triplex-0-2{
+    background-color: blue;
+}
+#Triplex-2-4{
+    background-color: blue;
+}
+
