@@ -1,33 +1,23 @@
-.boton:disabled{
-    transform: rotateX(360deg) scale(105%);
-    transition: 1s ease;
-}
-.boton.selected{
-    transform: scale(120%);
-}
 .general {
-    width: 540px;
+    width: 580px;
     flex-direction: column;
-    align-items: center;
-    padding-left: 5%;
-    padding-bottom: 50px;
+}
+.cuadro {
+    margin: 5% 0 0 5%;
+    border-top-right-radius: 12%;
+    border-top-left-radius: 12%;
+    border: 16px solid aqua;
 }
 .titulo {
     display: flex;
-    justify-content: space-between;
-    margin: 0% 0% 0% 0%;
     border-top-right-radius: 12%;
     border-top-left-radius: 12%;
     background-color: aqua;
 }
 .contenedorBingo{
-    display: inline-block;
-    width: 19%;
-    justify-content: space-between;
-    border-left: 7px solid aqua;
-    border-right: 13px solid aqua;
-    border-bottom: 12px solid aqua;
-    text-align: center;
+    width: 20%;
+    border-left: 11px solid aqua;
+    border-right: 11px solid aqua;
 }
 .numero {
     width: 93px;
@@ -47,24 +37,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
 }
-.ultimo {
-    height: 90px;
-    border-bottom: 15px solid aqua;
-}
 .boton {
-    border: 0ch;
+    border: hidden;
     background-color: #FFF;
     cursor: pointer;
-}
-.botonMuestra {
-    width: 83%;
-    border: 0ch;
-    background-color: #FFF;
-    text-align: center;
-    cursor: pointer;
-}
-div .numero:hover {
-    transform: scale(1.05);
 }
 #Equis-0-0{
     background-color: gold;
@@ -119,7 +95,6 @@ div .numero:hover {
 #Triplex-4-2{
     background-color: hotpink;
 }
-
 #Triplex-1-4{
     background-color: chartreuse;
 }
@@ -135,7 +110,6 @@ div .numero:hover {
 #Triplex-3-4{
     background-color: chartreuse;
 }
-
 #Triplex-0-4{
     background-color: blue;
 }
@@ -148,4 +122,6 @@ div .numero:hover {
 #Triplex-2-4{
     background-color: blue;
 }
-
+.color{
+    background-color: aqua;
+}

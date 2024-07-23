@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         bingo.push(numeros);
     }
     for(let iteracion = 0; iteracion < 1; iteracion++){
-    print += ' <div class="row"> ';
+    print += ' <div class="row cuadro"> ';
     print += ' <div class="titulo"> ';
     print += ' <div class="letras">B</div> ';
     print += ' <div class="letras">I</div> ';
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('bingos').innerHTML = print;
     }
     for(let iteracion = 0; iteracion < 1; iteracion++){
-        print += ' <div class="row"> ';
+        print += ' <div class="row cuadro"> ';
         print += ' <div class="titulo"> ';
         print += ' <div class="letras">B</div> ';
         print += ' <div class="letras"></div> ';
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
         for(let iteracion = 0; iteracion < 1; iteracion++){
-            print += ' <div class="row"> ';
+            print += ' <div class="row cuadro"> ';
             print += ' <div class="titulo"> ';
             print += ' <div class="letras"></div> ';
             print += ' <div class="letras">I</div> ';
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     
             for(let iteracion = 0; iteracion < 1; iteracion++){
-                print += ' <div class="row"> ';
+                print += ' <div class="row cuadro"> ';
                 print += ' <div class="titulo"> ';
                 print += ' <div class="letras"></div> ';
                 print += ' <div class="letras"></div> ';
@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
             for(let iteracion = 0; iteracion < 1; iteracion++){
-                print += ' <div class="row"> ';
+                print += ' <div class="row cuadro"> ';
                 print += ' <div class="titulo"> ';
                 print += ' <div class="letras"></div> ';
                 print += ' <div class="letras"></div> ';
@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     
                     
             for(let iteracion = 0; iteracion < 1; iteracion++){
-                print += ' <div class="row"> ';
+                print += ' <div class="row cuadro"> ';
                 print += ' <div class="titulo"> ';
                 print += ' <div class="letras"></div> ';
                 print += ' <div class="letras"></div> ';
@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('bingos').innerHTML = print;
             
             for(let iteracion = 0; iteracion < 1; iteracion++){
-                print += ' <div class="row"> ';
+                print += ' <div class="row cuadro"> ';
                 print += ' <div class="titulo"> ';
                 print += ' <div class="letras">B</div> ';
                 print += ' <div class="letras">I</div> ';
@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('bingos').innerHTML = print;
             }
             for(let iteracion = 0; iteracion < 1; iteracion++){
-                print += ' <div class="row"> ';
+                print += ' <div class="row cuadro"> ';
                 print += ' <div class="titulo"> ';
                 print += ' <div class="letras">B</div> ';
                 print += ' <div class="letras">I</div> ';
